@@ -28,6 +28,7 @@ a:hover{
 }
 
 .main{
+    
     flex: 0.8;
     width: 100%;
     
@@ -88,7 +89,10 @@ a:hover{
 
 @media screen and (max-width:1000px){
     .main{
-        margin-left: 100px;
+        margin-left: 240px;
+        width: 100%;
+        flex: 1;
+        
     }
 }
 
